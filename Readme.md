@@ -1,7 +1,8 @@
 # Личный проект «Седона»
 
 * Студент: [Юрий](https://up.htmlacademy.ru/htmlcss-individual/2/user/2482805).
-* Наставник: `Неизвестно`.
+* Наставник: [Евгения](https://htmlacademy.ru/profile/id2387199).
+* Сайт: [Мой проект "Седона"](https://asdwzxcq.github.io/2482805-sedona-2/).
 
 ---
 
