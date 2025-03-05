@@ -40,21 +40,6 @@ body {
     box-sizing: border-box;
 }
 
-.visually-hidden {
-  display: block;
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  color: transparent;
-  font-size: 1px;
-  clip: rect(0,0,0,0);
-  overflow: hidden;
-}
-
 .page-container  {
   width: 1200px;
   display: flex;
@@ -429,7 +414,7 @@ body {
 .advantages-item-image {
   display: block;
   width: 800px;
-  height: 385px;
+  height: auto;
   object-fit: cover;
 }
 
@@ -2330,3 +2315,18 @@ body {
 }
 
 /*Конец Модального Окна*/
+
+.visually-hidden {
+  display: block;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  color: transparent;
+  font-size: 1px;
+  clip: rect(0,0,0,0);
+  overflow: hidden;
+}
