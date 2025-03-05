@@ -162,6 +162,7 @@ body {
 
 .navigation-user {
   display: flex;
+  flex-wrap: wrap;
   list-style-type: none;
   padding: 0;
   text-align: center;
@@ -207,7 +208,8 @@ body {
 }
 
 .nav-user-favortie {
-  display: block;
+  display: flex;
+  flex-wrap: wrap;
   position: relative;
   width: 44px;
   height: 64px;
@@ -426,6 +428,9 @@ body {
 
 .advantages-item-image {
   display: block;
+  width: 800px;
+  height: 385px;
+  object-fit: cover;
 }
 
 .comfort-slogan-wrapper {
@@ -798,6 +803,7 @@ body {
 }
 
 .checkbox {
+  width: 152px;
   margin: 0;
   padding: 0;
   border: 0;
@@ -836,8 +842,8 @@ body {
 .checkbox-check-field {
   display: block;
   position: relative;
-  width: 20px;
-  height: 20px;
+  min-width: 20px;
+  min-height: 20px;
   margin: 0;
   padding: 0;
   background-color: #FFFFFF;
@@ -868,6 +874,7 @@ body {
 }
 
 .radio {
+  width: 152px;
   margin: 0;
   padding: 0;
   margin-left: 69px;
@@ -907,8 +914,8 @@ body {
 .radio-check-field {
   display: block;
   position: relative;
-  width: 20px;
-  height: 20px;
+  min-width: 20px;
+  min-height: 20px;
   margin: 0;
   padding: 0;
   background-color: #FFFFFF;
@@ -963,6 +970,9 @@ body {
 }
 
 .price-label-min {
+  width: 35px;
+  height: 25px;
+  overflow: hidden;
   position: absolute;
   top: 12px;
   left: 106px;
@@ -972,6 +982,9 @@ body {
 }
 
 .price-label-max {
+  width: 35px;
+  height: 25px;
+  overflow: hidden;
   position: absolute;
   top: 12px;
   left: 106px;
@@ -1212,6 +1225,7 @@ body {
 }
 
 .results-title {
+  width: 40%;
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
@@ -1224,7 +1238,7 @@ body {
   position: relative;
   padding: 0;
   margin: 0;
-  margin-left: 201px;
+  margin-left: auto;
 }
 
 .select-arrow {
@@ -1278,7 +1292,7 @@ body {
   list-style-type: none;
   padding: 0;
   margin: 0;
-  margin-left: auto;
+  margin-left: 72px;
   gap: 7px;
 }
 
@@ -1562,7 +1576,7 @@ body {
 .pagination {
   display: flex;
   flex-wrap: wrap;
-  width: 400px;
+  width: 100%;
   list-style-type: none;
   padding: 0;
   padding-top: 40px;
@@ -1758,6 +1772,7 @@ body {
 }
 
 .contacts-phone {
+  width: 332px;
   font-weight: 400;
   font-size: 40px;
   line-height: 40px;
@@ -1873,6 +1888,7 @@ body {
 }
 
 .modal-date-select-name {
+  width: 80%;
   margin: 0;
   margin-bottom: 64px;
   padding: 0;
@@ -1893,7 +1909,9 @@ body {
 }
 
 .visit-field-name {
-  display: block;
+  width: 23%;
+  display: flex;
+  flex-wrap: wrap;
   margin: 0;
   padding: 0;
   align-self: center;
@@ -1968,7 +1986,9 @@ body {
 }
 
 .left-field-name {
-  display: block;
+  width: 23%;
+  display: flex;
+  flex-wrap: wrap;
   margin: 0;
   padding: 0;
   align-self: center;
@@ -2100,8 +2120,8 @@ body {
 
 .children-info-button {
   position: relative;
-  width: 26px;
-  height: 26px;
+  min-width: 26px;
+  min-height: 26px;
   margin: 0;
   margin-left: 12px;
   padding: 0;
