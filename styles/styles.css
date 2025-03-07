@@ -367,7 +367,7 @@ body {
   display: flex;
   flex-direction: column;
   width: 400px;
-  padding: 0 85px;
+  padding: 20px 85px;
   margin: auto 0;
 }
 
@@ -431,7 +431,7 @@ body {
   color: #000000;
   text-align: center;
   margin: 0 auto;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
   text-transform: uppercase;
 }
 
@@ -938,6 +938,7 @@ body {
   padding: 0;
   margin: 0;
   margin-left: auto;
+  margin-bottom: auto;
   border: 0;
   align-items: center;
 }
