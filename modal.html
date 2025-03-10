@@ -103,17 +103,17 @@
         <section class="comfort">
           <div class="comfort-slogan-wrapper">
             <h2 class="comfort-title">Приезжайте в Седону отдохнуть<br> в комфорте и уюте!</h2>
-            <p class="comfort-discription">Опытный персонал и качественное обслуживание!</p>
+            <p class="comfort-discription">Опытный персонал<br> и качественное обслуживание!</p>
           </div>
           <ul class="comfort-list">
             <li class="comfort-item comfort-item-dark">
               <h3 class="comfort-item-title comfort-title-home">Жильё</h3>
-              <p class="comfort-item-discription">Рекомендуем пожить<br> в настоящем мотеле,<br>
+              <p class="comfort-item-discription">Рекомендуем пожить<br> в настоящем мотеле,
                 всё как в кино!</p>
             </li>
             <li class="comfort-item">
               <h3 class="comfort-item-title comfort-title-food">Еда</h3>
-              <p class="comfort-item-discription">Всегда заказывайте<br>
+              <p class="comfort-item-discription">Всегда заказывайте
                 топовый фирменный бургер,<br> вы не разочаруетесь!</p>
             </li>
             <li class="comfort-item comfort-item-dark">
@@ -164,6 +164,69 @@
           <span class="visually-hidden">HTML Academy</span>
         </a>
       </footer>
+      <div class="modal-container">
+        <div class="modal">
+          <button class="modal-close-button" type="button">
+            <span class="visually-hidden">Закрыть окно поиска гостиницы</span>
+          </button>
+          <form class="modal-date-select" method="post">
+            <h2 class="modal-date-select-name">Поиск гостиницы в Седоне</h2>
+            <fieldset class="visit-date-box">
+              <label class="visit-field-name" for="visit-date">Дата Заезда:</label>
+              <div class="date-field-wrapper">
+                <input class="visit-date-field" type="text" id="visit-date" value="27 апреля 2020">
+                <div class="calendar-input">
+                  <span class="visually-hidden">Открыть календарь</span>
+                </div>
+              </div>
+              <p class="visit-note">Мы не можем отправить вас в прошлое.</p>
+            </fieldset>
+            <fieldset class="left-date-box">
+              <label class="left-field-name" for="left-date">Дата Выезда:</label>
+              <div class="date-field-wrapper">
+                <input class="left-date-field" type="text" id="left-date" value="1 сентября 2023">
+                <div class="calendar-input">
+                  <span class="visually-hidden">Открыть календарь</span>
+                </div>
+              </div>
+              <p class="left-note">На эти даты есть свободные номера. Пока есть.</p>
+            </fieldset>
+            <fieldset class="adult-number-box">
+              <label class="adult-number-name" for="adult-number">Взрослые:</label>
+              <div class="adult-button-wrapper">
+                <button class="button-adult-con modal-button-con" type="button">
+                  <span class="visually-hidden">Уменьшить количество взрослых</span>
+                </button>
+                <input class="adult-number-field" type="number" id="adult-number" value="2" required>
+                <button class="button-adult-plus modal-button-plus" type="button">
+                  <span class="visually-hidden">Увеличить количество взрослых</span>
+                </button>
+              </div>
+            </fieldset>
+            <fieldset class="children-number-box">
+              <label class="children-number-name" for="children-number">Дети:</label>
+              <button class="children-info-button" type="button">
+                <span class="visually-hidden">Информация</span>
+                <span class="tooltip-info">
+                  Укажите количество детей, которые будут с вами, возраст которых от 6 до 18 лет. Дети до
+                  6 лет
+                  размещаются бесплатно.
+                </span>
+              </button>
+              <div class="children-button-wrapper">
+                <button class="button-child-con modal-button-con" type="button">
+                  <span class="visually-hidden">Уменьшить количество детей</span>
+                </button>
+                <input class="children-number-field" type="number" id="children-number" value="2" required>
+                <button class="button-child-plus modal-button-plus" type="button">
+                  <span class="visually-hidden">Увеличить количество детей</span>
+                </button>
+              </div>
+            </fieldset>
+            <button class="modal-button-search" type="submit">Найти</button>
+          </form>
+        </div>
+      </div>
     </div>
   </body>
 
