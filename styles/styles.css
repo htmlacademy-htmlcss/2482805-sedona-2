@@ -37,10 +37,10 @@ body {
 *,
 *::before,
 *::after {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-.page-container  {
+.page-container {
   width: 1200px;
   display: flex;
   flex-direction: column;
@@ -367,7 +367,7 @@ body {
   display: flex;
   flex-direction: column;
   width: 400px;
-  padding: 20px 85px;
+  padding: 20px 80px;
   margin: auto 0;
 }
 
@@ -457,7 +457,7 @@ body {
   display: flex;
   flex-direction: column;
   width: 400px;
-  padding: 81px 85px;
+  padding: 81px 80px;
   margin: 0;
 }
 
@@ -519,8 +519,8 @@ body {
 .search {
   margin: 0;
   padding: 0 70px;
-  padding-top: 78px;
-  padding-bottom: 97px;
+  padding-top: 94px;
+  padding-bottom: 96px;
 }
 
 .search-title {
@@ -580,6 +580,7 @@ body {
   background-color: #E5E5E5;
   outline: 0;
 }
+
 /*Конец Индекс Поиска*/
 
 .subscribe-index {
@@ -1758,7 +1759,7 @@ body {
 }
 
 .contacts-phone {
-  width: 332px;
+  width: 334px;
   font-weight: 400;
   font-size: 40px;
   line-height: 40px;
@@ -2328,6 +2329,6 @@ body {
   white-space: nowrap;
   color: transparent;
   font-size: 1px;
-  clip: rect(0,0,0,0);
+  clip: rect(0, 0, 0, 0);
   overflow: hidden;
 }
