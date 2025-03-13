@@ -155,6 +155,7 @@ body {
   margin-left: auto;
   margin-bottom: auto;
   margin-top: 0;
+  justify-content: flex-end;
 }
 
 .nav-user-item {
@@ -1217,6 +1218,7 @@ body {
   color: #000000;
   text-transform: uppercase;
   margin: 0;
+  margin-bottom: auto;
 }
 
 .select-list-wrapper {
@@ -1224,6 +1226,7 @@ body {
   padding: 0;
   margin: 0;
   margin-left: auto;
+  margin-bottom: auto;
 }
 
 .select-arrow {
@@ -1279,6 +1282,7 @@ body {
   margin: 0;
   margin-left: 72px;
   gap: 7px;
+  margin-bottom: auto;
 }
 
 .view-link {
@@ -1619,11 +1623,6 @@ body {
   text-decoration: none;
 }
 
-.page-current:focus,
-.page-dotbreak:focus {
-  outline: none;
-}
-
 .subscribe-catalog {
   width: 1200px;
   margin: 0;
@@ -1677,6 +1676,7 @@ body {
   padding: 0;
   list-style-type: none;
   margin: 0;
+  margin-bottom: auto;
 }
 
 .social-link {
@@ -1747,6 +1747,7 @@ body {
   text-decoration: none;
   text-transform: uppercase;
   margin: 0;
+  margin-bottom: auto;
 }
 
 .contacts-phone {
@@ -1777,6 +1778,7 @@ body {
   color: #000000;
   text-decoration: none;
   margin: 0;
+  margin-bottom: auto;
   min-height: 33px;
   align-content: center;
 }
