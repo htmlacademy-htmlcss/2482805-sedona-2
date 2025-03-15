@@ -1116,15 +1116,18 @@ body {
 
 .range-button-min:hover {
   cursor: pointer;
+  box-shadow: 0 4 10px rgba(0, 0, 0, 0.25);
 }
 
 .range-button-min:focus {
   outline: 3px solid #68A2CA;
+  box-shadow: 0 4 10px rgba(0, 0, 0, 0.25);
 }
 
 .range-button-min:active {
   outline: 2px solid #68A2CA;
   cursor: pointer;
+  box-shadow: 0 7 15px rgba(0, 0, 0, 0.4);
 }
 
 .range-button-min:disabled {
@@ -1147,15 +1150,18 @@ body {
 
 .range-button-max:hover {
   cursor: pointer;
+  box-shadow: 0 4 10px rgba(0, 0, 0, 0.25);
 }
 
 .range-button-max:focus {
   outline: 3px solid #68A2CA;
+  box-shadow: 0 4 10px rgba(0, 0, 0, 0.25);
 }
 
 .range-button-max:active {
   outline: 2px solid #68A2CA;
   cursor: pointer;
+  box-shadow: 0 7 15px rgba(0, 0, 0, 0.4);
 }
 
 .range-button-max:disabled {
