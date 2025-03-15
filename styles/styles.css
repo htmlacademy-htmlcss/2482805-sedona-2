@@ -83,7 +83,7 @@ body {
   opacity: 1;
 }
 
-.logo-link:disabled > .logo-sit {
+.logo-link:disabled > .logo-site {
   opacity: 0.3;
 }
 
@@ -651,9 +651,19 @@ body {
 
 }
 
-.email-field:focus {
+.email-field:focus,
+.email-field:active {
   border: 3px solid #68A2CA;
   outline: none;
+}
+
+.email-field:hover {
+  background-color: #E6E6E6;
+}
+
+.email-field:disabled {
+  background-color: #E6E6E6;
+  opacity: 0.3;
 }
 
 .subscribe-button {
@@ -835,6 +845,10 @@ body {
   opacity: 0.3;
 }
 
+.checkbox-input:disabled + .checkbox-check-field {
+  opacity: 0.3;
+}
+
 .checkbox-check-field {
   display: block;
   position: relative;
@@ -904,6 +918,10 @@ body {
 }
 
 .radio-list-item:active {
+  opacity: 0.3;
+}
+
+.radio-input:disabled + .radio-check-field {
   opacity: 0.3;
 }
 
@@ -1016,8 +1034,18 @@ body {
   -moz-appearance: textfield;
 }
 
-.price-bar-min:focus {
+.price-bar-min:focus,
+.price-bar-min:active {
+  background-color: #E6E6E6;
   outline: 3px solid #68A2CA;
+}
+
+.price-bar-min:hover {
+  background-color: #E6E6E6;
+}
+
+.price-bar-min:disabled {
+  opacity: 0.3;
 }
 
 .price-bar-max {
@@ -1047,8 +1075,18 @@ body {
   -moz-appearance: textfield;
 }
 
-.price-bar-max:focus {
+.price-bar-max:focus,
+.price-bar-max:active {
+  background-color: #E6E6E6;
   outline: 3px solid #68A2CA;
+}
+
+.price-bar-max:hover {
+  background-color: #E6E6E6;
+}
+
+.price-bar-max:disabled {
+  opacity: 0.3;
 }
 
 .range-wrapper {
@@ -1089,6 +1127,10 @@ body {
   cursor: pointer;
 }
 
+.range-button-min:disabled {
+  background-color: #E6E6E6;
+}
+
 .range-button-max {
   position: absolute;
   top: 0;
@@ -1115,6 +1157,11 @@ body {
   outline: 2px solid #68A2CA;
   cursor: pointer;
 }
+
+.range-button-max:disabled {
+  background-color: #E6E6E6;
+}
+
 
 .range-line {
   position: absolute;
@@ -1333,6 +1380,10 @@ body {
 .view-link:active {
   outline: 2px solid #000000;
   border-radius: 4px
+}
+
+.view-link:disabled {
+  opacity: 0.3;
 }
 
 .view-link-grid {
@@ -1661,6 +1712,12 @@ body {
   border: 0;
 }
 
+.page-link:disabled {
+  color: #FFFFFF;
+  background-color: #E5E5E5;
+  outline: 0;
+}
+
 .page-dotbreak {
   font-weight: 400;
   font-size: 22px;
@@ -1882,6 +1939,12 @@ body {
   opacity: 0.3;
 }
 
+.modal-close-button:active {
+  background-color: #E6E6E6;
+  outline: 0;
+  opacity: 0.3;
+}
+
 .modal-date-select {
   display: flex;
   flex-wrap: wrap;
@@ -1945,7 +2008,21 @@ body {
 }
 
 .visit-date-field:focus {
+  background-color: #E6E6E6;
   outline: 3px solid #68A2CA;
+}
+
+.visit-date-field:active {
+  outline: 3px solid #68A2CA;
+}
+
+.visit-date-field:hover {
+  background-color: #E6E6E6;
+  outline: 0;
+}
+
+.visit-date-field:disabled {
+  opacity: 0.3;
 }
 
 .calendar-input {
@@ -1964,6 +2041,10 @@ body {
 }
 
 .calendar-input:hover {
+  opacity: 1;
+}
+
+.calendar-input:focus {
   opacity: 1;
 }
 
@@ -2019,7 +2100,19 @@ body {
 }
 
 .left-date-field:focus {
+  background-color: #E6E6E6;
   outline: 3px solid #68A2CA;
+}
+
+.left-date-field:active {
+  outline: 3px solid #68A2CA;
+}
+.left-date-field:hover {
+  background-color: #E6E6E6;
+  outline: 0;
+}
+.left-date-field:disabled {
+  opacity: 0.3;
 }
 
 .left-note {
@@ -2058,11 +2151,20 @@ body {
   text-align: center;
 }
 
-.adult-number-field:focus {
+.adult-number-field:focus,
+.adult-number-field:active {
   outline: 3px solid #82B3D3;
   border-radius: 4px;
 }
 
+.adult-number-field:hover {
+  background-color: #E6E6E6;
+  outline: 0;
+}
+
+.adult-number-field:disabled {
+  opacity: 0.3;
+}
 
 .adult-number-field::-webkit-outer-spin-button,
 .adult-number-field::-webkit-inner-spin-button {
@@ -2191,7 +2293,9 @@ body {
 }
 
 .children-info-button:disabled {
-  opacity: 0.3;
+  color: #FFFFFF;
+  background-color: #E5E5E5;
+  outline: 0;
 }
 
 .children-number-field {
@@ -2207,9 +2311,19 @@ body {
   text-align: center;
 }
 
-.children-number-field:focus {
+.children-number-field:focus,
+.children-number-field:active {
   outline: 3px solid #82B3D3;
   border-radius: 4px;
+}
+
+.children-number-field:hover {
+  background-color: #E6E6E6;
+  outline: 0;
+}
+
+.children-number-field:disabled {
+  opacity: 0.3;
 }
 
 .children-number-field::-webkit-outer-spin-button,
