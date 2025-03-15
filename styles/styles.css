@@ -1200,6 +1200,7 @@ body {
 
 .button-use:hover {
   background-color: #68A2CA;
+  cursor: pointer;
 }
 
 .button-use:focus {
@@ -1233,6 +1234,7 @@ body {
 
 .button-reset:hover {
   color: rgba(255, 255, 255, 0.6);
+  cursor: pointer;
 }
 
 .button-reset:focus {
@@ -1563,6 +1565,7 @@ body {
 
 .favorite-button:hover {
   background-color: #68A2CA;
+  cursor: pointer;
 }
 
 .favorite-button:focus {
@@ -1594,6 +1597,7 @@ body {
 
 .favorite-button-checked:hover {
   background-color: #6C9E42;
+  cursor: pointer;
 }
 
 .favorite-button-checked:focus {
@@ -1926,6 +1930,7 @@ body {
 
 .modal-close-button:hover {
   background-color: #E6E6E6;
+  cursor: pointer;
 }
 
 .modal-close-button:focus {
@@ -2378,6 +2383,7 @@ body {
 
 .modal-button-con:hover {
   background-color: #000000;
+  cursor: pointer;
 }
 
 .modal-button-con:focus {
@@ -2403,6 +2409,7 @@ body {
 
 .modal-button-plus:hover {
   background-color: #000000;
+  cursor: pointer;
 }
 
 .modal-button-plus:focus {
@@ -2444,6 +2451,7 @@ body {
 
 .modal-button-search:hover {
   background-color: #68A2CA;
+  cursor: pointer;
 }
 
 .modal-button-search:focus {
